@@ -142,7 +142,6 @@ a.botao {
 .card {
   text-align: center;
   margin: 0;
-
 }
 
 .card img {
@@ -228,7 +227,7 @@ a.botao {
   align-items: center;
   margin-top: 15px;
   color: white;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .contato img {
