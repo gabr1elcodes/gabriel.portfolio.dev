@@ -136,11 +136,13 @@ a.botao {
   align-items: center;
   flex-wrap: wrap;
   margin: 80px auto 0;
-  gap: 70px;
+  gap: 50px;
 }
 
 .card {
   text-align: center;
+  margin: 0;
+
 }
 
 .card img {
@@ -226,6 +228,7 @@ a.botao {
   align-items: center;
   margin-top: 15px;
   color: white;
+  margin-bottom: 15px;
 }
 
 .contato img {
