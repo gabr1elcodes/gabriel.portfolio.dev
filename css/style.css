@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background: linear-gradient(135deg, #0A0A0A, #161B22);
+  background-color: oklch(20.8% 0.042 265.755);
   min-height: 100vh;
   padding-top: 90px;
   color: #EDEDED;
@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-  background-color: #111111;
+  background-color: oklch(20.8% 0.042 265.755);
   width: 95%;
   max-width: 1200px;
   margin: 0 auto;
@@ -82,7 +82,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #2EA043;
+  background-color: oklch(62% 0.15 262);
   color: white;
   text-decoration: none;
   padding: 12px 30px;
@@ -93,7 +93,7 @@ body {
 }
 
 .verProjetos:hover {
-  background: linear-gradient(135deg, #2EA043, #0094cc);
+  background-color: oklch(62% 0.15 262);
   transform: scale(1.05);
 }
 
@@ -135,6 +135,7 @@ a.botao {
 }
 
 .cards-container {
+  border: (80% 0.03 265);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -171,21 +172,18 @@ a.botao {
   display: inline-block;
   color: white;
   text-decoration: none;
-  background-color: #2EA043;
+  background-color: oklch(62% 0.15 262);
   padding: 15px;
   margin-top: 20px;
   border-radius: 10px;
-  transform: scale(1.1);
-  box-shadow: 0 0 2px #2EA043,
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  box-shadow: 0 0 2px oklch(62% 0.15 262);
 }
 
 .cards-container a:hover {
-  background-color: rgb(rgb(130, 222, 126), green, rgb(20, 159, 119));
-  transform: scale(1.1);
-  box-shadow: 0 0 02px #2EA043,
-              0 0 06px #2EA043,
-              0 0 10px #2EA043,
-              0 0 14px #2EA043;
+  background-color: oklch(57% 0.15 262);
+  transform: scale(1.03);
+  box-shadow: oklch(57% 0.15 262);
 }
 
 .container-pai a {
@@ -199,7 +197,7 @@ a.botao {
 
 /* SOBRE */
 .sobre h2 {
-  background-color: #2EA043;
+  background-color: oklch(62% 0.15 262);
   border-radius: 10px;
   margin-top: 55px;
   margin-bottom: 35px;
@@ -222,7 +220,7 @@ a.botao {
 
 /* CONTATO / RODAPÉ */
 .contato h2 {
-  background-color: #2EA043;
+  background-color: oklch(62% 0.15 262);
   border-radius: 10px;
   margin-top: 30px;
   text-align: center;
@@ -264,6 +262,5 @@ a.botao {
 }
 
 .card img {
-  background-color: #2EA043;
-  box-shadow: #2EA043;
+  background-color: oklch(80% 0.03 265);
 }
