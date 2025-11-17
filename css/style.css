@@ -3,6 +3,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  color: #E6EDF3;
 }
 
 html {
@@ -10,14 +11,16 @@ html {
 }
 
 body {
-  background: linear-gradient(rgb(8, 8, 126), rgb(80, 33, 211), rgb(8, 8, 126));
+  background-color: #0D1117;
   min-height: 100vh;
   padding-top: 90px;
-  color: white;
+  color: #EDEDED;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: #EDEDED;
 }
 
 .container {
+  background-color: #111111;
   width: 95%;
   max-width: 1200px;
   margin: 0 auto;
@@ -30,7 +33,8 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(28, 53, 143, 0.4);
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.1);
   z-index: 1000;
   padding: 30px 30px;
 }
@@ -78,7 +82,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #273bd0;
+  background-color: #2EA043;
   color: white;
   text-decoration: none;
   padding: 12px 30px;
@@ -89,7 +93,7 @@ body {
 }
 
 .verProjetos:hover {
-  background: linear-gradient(135deg, #0056b3, #0094cc);
+  background: linear-gradient(135deg, #2EA043, #0094cc);
   transform: scale(1.05);
 }
 
@@ -167,10 +171,21 @@ a.botao {
   display: inline-block;
   color: white;
   text-decoration: none;
-  background-color: #273bd0;
+  background-color: #2EA043;
   padding: 15px;
   margin-top: 20px;
   border-radius: 10px;
+  transform: scale(1.1);
+  box-shadow: 0 0 2px #2EA043,
+}
+
+.cards-container a:hover {
+  background-color: rgb(rgb(130, 222, 126), green, rgb(20, 159, 119));
+  transform: scale(1.1);
+  box-shadow: 0 0 02px #2EA043,
+              0 0 06px #2EA043,
+              0 0 10px #2EA043,
+              0 0 14px #2EA043;
 }
 
 .container-pai a {
@@ -182,10 +197,9 @@ a.botao {
 }
 
 
-
 /* SOBRE */
 .sobre h2 {
-  background-color: #273bd0;
+  background-color: #2EA043;
   border-radius: 10px;
   margin-top: 55px;
   margin-bottom: 35px;
@@ -208,7 +222,7 @@ a.botao {
 
 /* CONTATO / RODAPÉ */
 .contato h2 {
-  background-color: #273bd0;
+  background-color: #2EA043;
   border-radius: 10px;
   margin-top: 30px;
   text-align: center;
@@ -227,7 +241,6 @@ a.botao {
   align-items: center;
   margin-top: 15px;
   color: white;
-  margin-bottom: 30px;
 }
 
 .contato img {
@@ -248,4 +261,9 @@ a.botao {
   .cards-container { flex-direction: column; align-items: center; gap: 18px; }
   a.botao { width: 100%; display: block; }
   .cabeca nav ul { display: none; } /* melhorar depois com um toggle JS */
+}
+
+.card img {
+  background-color: #2EA043;
+  box-shadow: #2EA043;
 }
