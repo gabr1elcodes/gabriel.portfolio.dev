@@ -19,5 +19,5 @@ A cada novo projeto finalizado, o site será atualizado com os links para reposi
 
 GitHub:@gabrieloliveira30
 LinkedIn: (https://www.linkedin.com/in/gabriel-oliveira-871b06359/)
-Email: (bieloliveira1914@gmail.com)
+Email: (gabrieloliveira30p@gmail.com)
 💡 Este portfólio é um projeto em constante evolução. Cada atualização representa um novo passo na minha jornada como desenvolvedor.
